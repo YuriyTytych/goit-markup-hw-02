@@ -61,7 +61,7 @@ button {
   color: var(--accent-color);
 }
 
-.menu .menu-link .current {
+.menu .menu-link.current {
   color: var(--accent-color);
 }
 
@@ -116,7 +116,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-dark);
-  background-color: var(--accent-color) ;
+  background-color: var(--accent-color);
 }
 
 .hero-btn:hover,
@@ -223,30 +223,60 @@ footer {
 
 .footer-contact-address:hover,
 .footer-contact-address:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer-contact-e-mail {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--secondary-text-color-theme-dark);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color-theme-dark);
 }
 
 .footer-contact-e-mail:hover,
 .footer-contact-e-mail:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .footer-contact-phone {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--secondary-text-color-theme-dark);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color-theme-dark);
 }
 
 .footer-contact-phone:hover,
 .footer-contact-phone:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
+}
+
+/*====== PORTFOLIO ======*/
+
+.filter-btn {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color-theme-light);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+}
+
+.project-suptitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-theme-light);
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color-theme-light);
 }
